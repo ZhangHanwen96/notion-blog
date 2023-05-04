@@ -1,8 +1,8 @@
 const BLOG = {
-  title: '信鑫 Blog',
-  author: 'ycjcl868',
+  title: '大圣此去欲何 Blog',
+  author: 'neverglow',
   authorAvatar: '/avatar.jpeg',
-  email: 'chaolinjin@gmail.com',
+  email: 'zhw19960308@outlook.com',
   defaultImageHost: 'images.rustc.cloud',
   link: 'https://www.rustc.cloud',
   description: '写写文章的地方',
@@ -35,35 +35,35 @@ const BLOG = {
       dataAckeeServer: '', // e.g https://ackee.craigary.net , don't end with a slash
       domainId: '' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
-    gaConfig: {
-      measurementId: 'G-QNHPPR60EZ' // e.g: G-XXXXXXXXXX
-    },
-    cnzzConfig: {
-      id: '1279745642'
-    }
+    // gaConfig: {
+    //   measurementId: 'G-QNHPPR60EZ' // e.g: G-XXXXXXXXXX
+    // },
+    // cnzzConfig: {
+    //   id: '1279745642'
+    // }
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: 'cusdis', // leave it empty if you don't need any comment plugin
-    gitalkConfig: {
-      repo: 'blog', // The repository of store comments
-      owner: 'ycjcl868',
-      admin: ['ycjcl868'],
-      clientID: '26baba385d964968e855',
-      clientSecret: '56f5bf32b9785258727c624d7fbd2984361315e3',
-      distractionFreeMode: false,
-      proxy:
-        'https://proxy.rustc.cloud/?https://github.com/login/oauth/access_token'
-    },
+    // provider: 'cusdis', // leave it empty if you don't need any comment plugin
+    // gitalkConfig: {
+    //   repo: 'blog', // The repository of store comments
+    //   owner: 'ycjcl868',
+    //   admin: ['ycjcl868'],
+    //   clientID: '26baba385d964968e855',
+    //   clientSecret: '56f5bf32b9785258727c624d7fbd2984361315e3',
+    //   distractionFreeMode: false,
+    //   proxy:
+    //     'https://proxy.rustc.cloud/?https://github.com/login/oauth/access_token'
+    // },
     utterancesConfig: {
       repo: ''
     },
-    cusdisConfig: {
-      appId: 'f099af17-208a-4dce-805a-1afcab66c7b1', // data-app-id
-      host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
-      scriptSrc: 'https://cusdis.com/js/cusdis.umd.js', // change this if you're using self-hosted version
-      autoApproval: true // auto approval comments
-    }
+    // cusdisConfig: {
+    //   appId: 'f099af17-208a-4dce-805a-1afcab66c7b1', // data-app-id
+    //   host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
+    //   scriptSrc: 'https://cusdis.com/js/cusdis.umd.js', // change this if you're using self-hosted version
+    //   autoApproval: true // auto approval comments
+    // }
   },
   isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
